@@ -1,0 +1,170 @@
+# VistoUSA
+Documents Regarding USA EB1 visa
+animus
+Canedo Filho
+
+**Data de consolidação:** 14/05/2026  
+**Status:** arquivo de sincronização biográfica, profissional, institucional e probatória.  
+**Natureza:** cofre privado mestre, com possibilidade de gerar versões públicas curadas.  
+
+## 1. Declaração de existência
+
+O **Animus** foi criado como um sistema de organização e sincronização da trajetória documental de Delyone de Paula Canedo Filho. Ele consolida, em três fragmentos, credenciais, formação, documentos profissionais, registros institucionais, materiais internacionais, arquivos jurídicos, projetos, provas de anterioridade e documentos sensíveis.
+
+Este índice não substitui os arquivos originais. Ele funciona como mapa de navegação, camada de curadoria e ponto de sincronização entre vida documental, Instituto, site, Notion, GitHub, processos, currículo e projetos futuros.
+
+## 2. Leitura simbólica e operacional
+
+```text
+Animus 1 = pessoa, formação, certificações, currículo e credenciais profissionais.
+Animus 2 = instituição, internacionalização, Harvard, candidaturas, registros administrativos e jurídico amplo.
+Animus 3 = núcleo probatório, OAS/CIDH, processos, anterioridade, projetos especiais e material sensível.
+```
+
+O feito central não foi apenas compactar arquivos. Foi transformar dispersão biográfica em arquitetura navegável.
+
+## 3. Inventário consolidado
+
+| Fragmento | Função | ZIP | Arquivos úteis | Tamanho útil estimado | Publicação |
+|---|---|---:|---:|---:|---|
+| Animus 1 | credenciais, formação, currículo e trajetória profissional | 282.57 MB | 152 | 322.77 MB | privado por padrão; publicar apenas versão curada/saneada |
+| Animus 2 | institucional, internacional, administrativo e jurídico amplo | 54.03 MB | 77 | 58.21 MB | privado por padrão; publicar apenas versão curada/saneada |
+| Animus 3 | probatório, jurídico, OAS/CIDH, projetos especiais e material sensível | 462.1 MB | 107 | 511.48 MB | privado por padrão; publicar apenas versão curada/saneada |
+
+## 4. Função de cada fragmento
+
+### Animus 1 — Credenciais e trajetória profissional
+
+Contém o eixo de formação, currículos, certificações, credenciais institucionais, certidões, credenciamento profissional e documentos relacionados à atuação médica. É a base para construir portfólio público, currículo institucional, página de credenciais e evidência de trajetória.
+
+**Uso recomendado:** cofre privado + extração seletiva para página pública de credenciais.  
+**Risco:** médio/alto, por conter certificado digital, certidões, contratos, laudos, comprovantes, documentos de vínculo e possíveis dados pessoais.  
+
+### Animus 2 — Instituição, internacionalização e documentação administrativa
+
+Contém o eixo Harvard, FBI, IRPF, INSS, documentos jurídicos, documentos pessoais, estrutura do Instituto, materiais para vagas de emprego e documentação institucional. É a base para processos seletivos, internacionalização, dossiês, candidaturas e organização do Instituto.
+
+**Uso recomendado:** cofre institucional privado.  
+**Risco:** alto, por conter material fiscal, documentos pessoais, aplicações, passaporte/CRM/GMC/transcripts e documentos administrativos sensíveis.  
+
+### Animus 3 — Provas, processos, OAS/CIDH e projetos sensíveis
+
+É o fragmento mais sensível. Contém OAS/CIDH, jurídico, SEI, PLF, projetos, materiais médicos, maçonaria/UK, gravações, prints e zips internos. Deve ser tratado como arquivo probatório-mestre e não como vitrine.
+
+**Uso recomendado:** cofre privado probatório, com extrações pontuais e saneadas.  
+**Risco:** muito alto, por conter petições, provas, documentos processuais, vídeos, prints, notas fiscais, CNIS/INSS, dados de terceiros e documentos assinados.
+
+## 5. Regra de ouro de publicação
+
+```text
+O Animus bruto é privado.
+A vitrine pública é derivada, saneada, curada e mínima.
+```
+
+Nunca publicar em GitHub público, site, redes sociais ou repositórios abertos:
+
+- CPF, RG, CNH, passaporte, DS-11 ou documentos de identidade;
+- certificado digital, chaves, tokens, QR codes sensíveis ou códigos de validação pessoais;
+- endereço, telefone privado, dados bancários, fiscais, IRPF, INSS, CNIS;
+- contratos assinados, procurações, petições, documentos judiciais brutos;
+- laudos, documentos médicos pessoais ou documentos com terceiros;
+- prints/gravações com nomes, emails, dados privados ou conteúdo probatório sensível;
+- arquivos de maçonaria, FBI/OAS/CIDH ou materiais estratégicos sem curadoria.
+
+## 6. Arquitetura recomendada da Pasta Pessoal
+
+```text
+Pasta Pessoal Delyone/
+├── 00_INDICE_MESTRE/
+│   ├── ANIMUS_INDICE_MESTRE.md
+│   ├── ANIMUS_MASTER_MANIFEST.csv
+│   ├── SHA256SUMS.txt
+│   └── README_RAIZ_PASTA_PESSOAL.md
+│
+├── Animus 1/
+│   ├── 00_INDICE/
+│   ├── 00_PUBLICAVEL_APOS_REVISAO/
+│   ├── 01_CREDENCIAIS_PROFISSIONAIS/
+│   ├── 02_CERTIFICACOES_MEDICAS/
+│   ├── 03_CURRICULUM/
+│   ├── 04_CERTIDOES_E_REGULARIDADE/
+│   ├── 05_CREDENCIAMENTO_GOIANIA/
+│   └── 99_PRIVADO_SENSIVEL/
+│
+├── Animus 2/
+│   ├── 00_INDICE/
+│   ├── 00_PUBLICAVEL_APOS_REVISAO/
+│   ├── 01_HARVARD_E_ACADEMICO/
+│   ├── 02_INSTITUTO_IDMT/
+│   ├── 03_INTERNACIONALIZACAO/
+│   ├── 04_CANDIDATURAS_E_VAGAS/
+│   ├── 05_ADMINISTRATIVO_FISCAL/
+│   └── 99_PRIVADO_SENSIVEL/
+│
+├── Animus 3/
+│   ├── 00_INDICE/
+│   ├── 01_JURIDICO_PRIVADO/
+│   ├── 02_OAS_CIDH_PRIVADO/
+│   ├── 03_PROVAS_DE_ANTERIORIDADE/
+│   ├── 04_PROJETOS_CONCEITUAIS/
+│   ├── 05_MATERIAIS_MEDICOS/
+│   ├── 06_CERTIFICADOS_PUBLICAVEIS/
+│   └── 99_PRIVADO_SENSIVEL/
+│
+└── 98_A_PROCESSAR/
+```
+
+## 7. Próximas versões derivadas
+
+### Animus Público
+
+Uma versão limpa, pequena e publicável para GitHub/site:
+
+```text
+ANIMUS_PUBLICO/
+├── README.md
+├── credenciais/
+├── certificados_publicos/
+├── publicacoes/
+├── tecnologia_e_patente/
+├── instituto/
+└── hashes/SHA256SUMS.txt
+```
+
+### Animus Probatório
+
+Uma versão privada para processos, auditorias e prova de anterioridade:
+
+```text
+ANIMUS_PROBATORIO_PRIVADO/
+├── README_PROBATORIO.md
+├── linha_do_tempo/
+├── documentos_chave/
+├── prints_e_videos/
+├── juridico/
+├── oas_cidh/
+└── hashes/SHA256SUMS.txt
+```
+
+### Animus Institucional
+
+Uma versão para IDMT, LinkedIn, site, propostas e credenciais:
+
+```text
+ANIMUS_INSTITUCIONAL_CURADO/
+├── perfil_institucional/
+├── certificados_relevantes/
+├── curriculos_publicos/
+├── tecnologia_proprietaria/
+├── pesquisa_e_publicacoes/
+└── documentos_de_apoio/
+```
+
+## 8. Checkpoint
+
+Você fez o Animus.
+
+Isso significa que a sua vida documental deixou de estar espalhada e passou a existir em três blocos vivos, indexáveis e recuperáveis. A partir de agora, cada novo documento deve entrar em uma dessas categorias ou em `98_A_PROCESSAR/`, para que o sistema continue limpo.
+
+**Frase de fechamento:**  
+> O Animus é o arquivo de sincronização biográfica, institucional e probatória de Delyone de Paula Canedo Filho: um mapa organizado da vida, da formação, das criações, dos registros e das evidências necessárias para reconstruir sua trajetória com fidelidade.
